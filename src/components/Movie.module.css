@@ -1,0 +1,23 @@
+.movieCard{
+    padding:0.5rem;
+    background-color: lightgray;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+.movieCard:hover{
+    transform: translateY(-2rem);
+}
+
+.title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    margin:2rem 0 1rem 0;
+}
+
+.year{
+    font-size: 1.6;
+    font-weight:700;
+}

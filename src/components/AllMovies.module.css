@@ -1,0 +1,80 @@
+
+.icon{
+    height: 24px;
+    width:24px;
+    cursor: pointer;
+  
+}
+.icon:hover{
+   transform: scale(1.2);
+    
+}
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    background-color: lightgray;
+    width:34rem;
+    margin-inline:auto;
+    border-radius: 2rem;
+    padding:1rem;
+    margin-top:2rem;
+    
+    
+}
+.searchBar button{
+    background-color: transparent;
+    border:none;
+    outline:none;
+}
+.searchBar input{
+    width:100%;
+    border:none;
+    padding:0.5rem 0.2rem;
+    border-radius: 2rem;
+    outline:none;
+}
+
+
+.moviesContainer{
+   width:90%;
+    margin-inline:auto;
+    margin-top:4rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:2rem;
+  row-gap:6rem;
+
+  justify-content: center;
+}
+
+.errorMsg{
+    font-size: 1.8rem;
+    color:lightgray;
+    margin-top:3rem;
+}
+@media (min-width:760px){
+    .moviesContainer{
+
+        grid-template-columns: repeat(2,1fr);  
+    }
+
+
+}
+@media (min-width:990px){
+    .moviesContainer{
+
+        grid-template-columns: repeat(3,1fr);  
+    }
+
+}
+@media (min-width:1400px){
+    .moviesContainer{
+
+        grid-template-columns: repeat(4,1fr);  
+    }
+
+
+}
