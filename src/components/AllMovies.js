@@ -8,7 +8,7 @@ const AllMovies= (props) =>{
 
     const [searchTerm,setSearchTerm]=useState("superman");
     const [movies,setMovies]=useState([]);
-    const API_URL="http://www.omdbapi.com/?i=tt3896198&apikey=db9aafb9";
+    const API_URL="https://www.omdbapi.com/?i=tt3896198&apikey=db9aafb9";
 
     const searchMoviesHandler=(e)=>{
         e.preventDefault();
